@@ -4,8 +4,6 @@ const app = express()
 
 app.get('/', (res, req) => {
 res.send("Hello")
-
-
 })
 
 app.listen(process.env.PORT)
